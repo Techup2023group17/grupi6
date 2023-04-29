@@ -3,22 +3,32 @@
 }
 
 
-#header {	
+#header {
     text-align: center;
-    background-color: #aa316e;
+    background-color: #000000;
+    border-radius:77px;
 }
 
-#foto1 {
-    width: 70%;
-      height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#header:hover {	
+    text-align: center;
+    background-color: #ff0000;
 }
+
+#foto1:hover {
+    width: 30%;
+      height: 30%;
+    display: block;
+    margin-left: 400px;
+    margin-right: 100px;
+    transition: 5s;
+}
+tr:nth-child(even) {background: #00ff2a}
+tr:nth-child(odd) {background: #5900ff}
+
 
 ul {
     float: right;
-    background-color: #c04798;
+    background-color: #ffffff;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,10 +37,12 @@ ul {
 li {
     float: left;
 }
-
+tr td:hover{
+    backgroun: rgb(0, 0, 0)
+}
 li a {
     display: block;
-    color: #96c2ce;
+    color: #00c8ff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -51,18 +63,20 @@ caption {
     caption-side: bottom;
 }
 
-th, td {
+th :hover {
     text-align: center;
     padding: 8px;
 }
 
 th {
-    background-color: #8d4982;
-    color: white;
+    background-color: #000000;
+    color: rgb(70, 0, 275);
 }
 
+
 .footer {
-    background-color: #5ADBFF;
+    background-color: #00b7ff;
     padding: 0.5em;
     text-align: right;
+    border-radius: 50px 0 32.5px 0;
 }
